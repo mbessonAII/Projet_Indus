@@ -1,0 +1,1 @@
+<?phptry {  $bdd = new PDO('mysql:host=localhost;dbname=bdd', 'root', '');}catch (Exception $e){   // Executed only in PHP 7, will not match in PHP 5   die('Erreur : ' . $e->getMessage());}/*catch (Exception $e) {  die('Erreur : ' . $e->getMessage());}*/?>
